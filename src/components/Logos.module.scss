@@ -1,0 +1,22 @@
+.container {
+    padding: 80px 150px;
+    text-align: center;
+
+    h3{
+        font-size: 3rem;
+        font-weight: bold;
+        padding: 40px;
+        color: #333333;
+    }
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        justify-items: center;
+
+        img{
+            width: 200px;
+        }
+    }
+
+}

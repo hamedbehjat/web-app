@@ -1,0 +1,32 @@
+.sliderContainer {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  img {
+    width: 100%;
+  }
+
+}
+
+.caption{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+
+    h1 {
+      font-size: 7rem;
+      color: #696969;
+  }
+
+  p {
+    font-size: 4rem;
+    color: #696969;
+    margin-top: 20px;
+
+    span {
+      color: blueviolet;
+      font-weight: bold;
+  }
+}
+
+}
