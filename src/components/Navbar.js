@@ -10,6 +10,7 @@ const Navbar = () => {
           <li>Home page</li>
           <li>Product</li>
           <li>About Us</li>
+          <li>Contact Us</li>
         </ul>
       </div>
       <div className={styles.logoContainer}>
