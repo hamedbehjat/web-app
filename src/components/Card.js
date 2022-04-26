@@ -39,13 +39,13 @@ class Card extends Component {
         </p>
 
         <div className={styles.counter}>
-          {/* <img className={this.state.counter ? "" : styles.diactive} src={down} alt="down" onClick={this.downHandler} /> */}
-          <img
+          <img className={this.state.counter ? "" : styles.diactive} src={down} alt="down" onClick={this.downHandler} />
+          {/* <img
             className={!this.state.counter && styles.diactive}
             src={down}
             alt="down"
             onClick={this.downHandler}
-          />
+          /> */}
           <span>{counter}</span>
           <img src={up} alt="up" onClick={this.upHandler} />
         </div>
