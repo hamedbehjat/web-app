@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Navbar.module.scss";
-import logo from "../images/student.png";
+import Login from "./Login";
 
 const Navbar = () => {
   return (
@@ -12,10 +12,11 @@ const Navbar = () => {
           <li>About Us</li>
           <li>Contact Us</li>
         </ul>
+        
+        
       </div>
-      <div className={styles.logoContainer}>
-        <img className={styles.logo} src={logo} alt="logo" />
-      </div>
+      <Login />
+      
     </header>
   );
 };

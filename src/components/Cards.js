@@ -8,9 +8,9 @@ class Cards extends Component {
     return (
       <div className={styles.container}>
         <Card name="book" price="500 $" image={item} />
-        <Card name="book" price="500 $" image={item} />
-        <Card name="book" price="500 $" image={item} />
-        <Card name="book" price="500 $" image={item} />
+        <Card name="book" price="600 $" image={item} />
+        <Card name="book" price="400 $" image={item} />
+        <Card name="book" price="700 $" image={item} />
       </div>
     );
   }
