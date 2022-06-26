@@ -13,12 +13,14 @@
 
     li {
       padding: 0 15px;
-      cursor: pointer;
-      color: #fff;
-      font-weight: bold;
-
-      &:hover {
-        color: red;
+      a {
+        cursor: pointer;
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+          color: rgb(112, 105, 105);
+        }
       }
     }
   }

@@ -3,49 +3,64 @@
   border-radius: 10px;
   margin: 10px;
   overflow: hidden;
+  width: 250px;
   box-shadow: 5px 5px 5px rgb(189, 189, 189);
-
+  position: relative;
+  // height: 400px;
   img {
     width: 250px;
+    height: 250px;
   }
+  .cardInfo {
 
-  h3 {
-    color: #696969;
-    margin: 20px;
-  }
+    min-height: 175px;
+    position: relative;
 
-  p {
-    color: #fff;
-    width: fit-content;
-    margin: 0 20px 20px;
-    border-radius: 7px;
-    background-color: rgb(10, 145, 46);
-    padding: 5px;
-  }
+    h3 {
+      color: #696969;
+      margin: 10px 20px;
+      font-size: 16px;
+      overflow: hidden;
+      position: absolute;
+      top: 5px;
+    }
 
-  .counter{
-    display: flex;
-    align-items: center;
-    border-top: 1px solid silver;
+    p {
+      color: #fff;
+      width: fit-content;
+      margin: 0 20px 20px;
+      border-radius: 7px;
+      background-color: rgb(10, 145, 46);
+      padding: 5px;
+      position: absolute;
+      bottom: 35px;
+    }
 
+    .counter {
+      display: flex;
+      align-items: center;
+      border-top: 1px solid silver;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
 
-    img{
-      width: 20px;
-      padding: 10px;
-      cursor: pointer;
-      &.diactive{
-        opacity: 0.3;
+      img {
+        width: 20px;
+        padding: 10px;
+        height: fit-content;
+        cursor: pointer;
+        &.diactive {
+          opacity: 0.3;
+        }
+      }
+
+      span {
+        background-color: rgb(109, 109, 214);
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
       }
     }
-
-    span{
-      background-color: rgb(109, 109, 214);
-      font-weight: bold;
-      padding: 5px;
-      border-radius: 5px;
-      color: #fff;
-    }
-
   }
-
 }

@@ -4,8 +4,11 @@ import Card from "./Card";
 import item from "../images/tractor-slide-2.jpg";
 
 class Cards extends Component {
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
+    // this.state={
+    //   items: props.items
+    // }
     this.state={
       items: [{
         id: 1,
@@ -39,7 +42,7 @@ class Cards extends Component {
   render() {
     return (
       <div className={styles.container}>
-        {this.state.items.map(item => <Card key={item.id} name={item.name} price={item.price} image={item.image} /> )}
+        {this.state.items.map(item => <Card key={item.id} id={item.id} name={item.name} price={item.price} image={item.image} /> )}
         {/* <Card name="book" price="500 $" image={item} />
         <Card name="book" price="600 $" image={item} />
         <Card name="book" price="400 $" image={item} />
